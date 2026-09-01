@@ -1,0 +1,46 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^9.0.0            # إدارة حالات التطبيق
+  get_it: ^8.0.0                  # حقن التبعيات
+  freezed_annotation: ^2.4.4      # وسوم المودلز الثابتة
+  json_annotation: ^4.9.0         # وسوم تحويل بيانات الجيسون
+  dio: ^5.7.0                     # إرسال واستقبال طلبات السيرفر
+  retrofit: ^4.4.1                # تنظيم الاتصال بالسيرفر
+  pretty_dio_logger: ^1.4.0       # طباعة تفاصيل الطلبات في الكونسول
+  easy_localization: ^3.0.7       # دعم متعدد اللغات
+  intl: 0.20.2                    # تم ضبطه ليتوافق تماماً مع easy_localization
+  cupertino_icons: ^1.0.8         # أيقونات تصميم آبل
+  flutter_svg: ^2.0.10            # عرض الصور المتجهية
+  flutter_screenutil: ^5.9.3      # تجاوب أحجام الشاشات والنصوص
+  flutter_native_splash: ^2.4.1   # شاشة الترحيب الأولى للنظام
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  build_runner: ^2.4.13           # المحرك الأساسي لتوليد الكود
+  freezed: ^2.5.2                 # أداة توليد كود المودلز
+  json_serializable: ^6.8.0       # أداة توليد كود تحويل الجيسون
+  retrofit_generator: ^8.2.0      # أداة توليد كود الاتصال بالشبكة
+
+dependency_overrides:
+  intl: 0.20.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/images/
