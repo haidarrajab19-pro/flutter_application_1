@@ -10,6 +10,7 @@ class TextStyles {
       );
 
   static TextStyle get font32Bgreen => TextStyle(
+    
         fontSize: 32.sp,
         fontWeight: FontWeight.w700,
         color: AppColors.mainGreen,

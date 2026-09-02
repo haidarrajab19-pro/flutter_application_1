@@ -9,6 +9,7 @@ class AppColors {
   // الألوان العامة للتطبيق
   static const Color appGreen = Color(0xFF32D34B);
   static const Color mainGreen = Color(0xFF131313);
+  
   static const Color grey = Color(0xFF757575);
   static const Color white = Colors.white;
 }

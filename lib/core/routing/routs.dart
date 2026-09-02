@@ -4,6 +4,10 @@ class Routs {
   // مسار شاشة التعريف (Onboarding)
   static const String onBoardingScreen = '/onBoardingScreen';
 
+
+
+  
+
   // مسار شاشة تسجيل الدخول (Login)
   static const String LoginScreen = '/LoginScreen';
   

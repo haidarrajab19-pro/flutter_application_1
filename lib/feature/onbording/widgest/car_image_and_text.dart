@@ -13,6 +13,7 @@ class Carimageandtext extends StatelessWidget {
       children: [
         // 1. تراكب الشعار الخلفي مع صورة السيارة
         SizedBox(
+
           height: 300.h,
           child: Stack(
             alignment: Alignment.center,
@@ -36,7 +37,7 @@ class Carimageandtext extends StatelessWidget {
                 right: -195.w,
                 left: 0,
                 child: Image.asset(
-                  'assets/images/car.png',
+                  'assets/images/cars.png',
                   height: 300.h,
                   width: 200.w,
                   fit: BoxFit.contain,

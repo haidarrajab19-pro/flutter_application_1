@@ -13,6 +13,7 @@ class DocApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
+    
     // إعدادات ScreenUtilInit لضمان تجاوب الواجهة (Responsive UI) مع كافة أحجام الشاشات
     return ScreenUtilInit(
       designSize: const Size(375, 812), // أبعاد الشاشة القياسية المصممة في Figma
