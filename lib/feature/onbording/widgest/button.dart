@@ -19,6 +19,7 @@ class Button extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.w),
                 ),
+                
               ),
             onPressed: () {
               context.pushNamed(Routs.LoginScreen);

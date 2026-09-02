@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 // الكلاس الأصلي الخاص بـ Flutter الذي سنضيف له هذه الوظائف
 extension Navigation on BuildContext {
   
+  
   // Future<dynamic>
   // قيمة غير مباشرة تعود مستقبلاً بعد إغلاق الشاشة
   // pushNamed

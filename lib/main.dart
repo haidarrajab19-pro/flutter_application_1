@@ -5,7 +5,7 @@ import 'package:flutter_application_1/doc_app.dart';
 void main() {
   runApp(DocApp(
 
-    appRouter: AppRouter(),
+    appRouter:AppRouter(),
   ));
 }
 
